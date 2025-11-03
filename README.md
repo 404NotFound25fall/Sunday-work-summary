@@ -17,19 +17,19 @@ The main executable script is lazor_solver.py .
 
 Navigate to the project directory (example path from docs):
 
-Bash
+
 
 cd '/Users/tommyboy/Desktop/lazor project/lazor_stage2_vscode_bundle (1)'
 Run the solver using the following command format:
 
-Bash
+
 
 python lazor_solver.py -i <input_file.bff> -o <output_file.sol> [--diagnose]
 
 
 Example (testing mad_1.bff):
 
-Bash
+
 
 python lazor_solver.py -i examples/official/mad_1.bff -o out/mad_1.sol --diagnose
 
